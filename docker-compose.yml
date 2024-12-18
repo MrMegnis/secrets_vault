@@ -10,7 +10,7 @@ services:
       - ./data:/vault/data
     environment:
       VAULT_DEV_ROOT_TOKEN_ID: root
-    command: ["server", "-config=/vault/config/config.hcl"]
+    command: ["server"]
     cap_add:
       - IPC_LOCK
     restart: always
