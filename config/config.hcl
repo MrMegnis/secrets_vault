@@ -1,5 +1,5 @@
 listener "tcp" {
-  address     = "127.0.0.1:8201"
+  address     = "0.0.0.0:8201"
   tls_disable = 1
 }
 
