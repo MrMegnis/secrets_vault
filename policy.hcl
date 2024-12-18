@@ -1,3 +1,3 @@
 path "kv/lab3-secret" {
-  capabilities = ["read"]
+  capabilities = ["read", "list"]
 }
