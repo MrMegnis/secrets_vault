@@ -4,7 +4,7 @@ services:
     image: hashicorp/vault:1.18
     container_name: vault
     ports:
-      - "127.0.0.1:8201:8201"
+      - "127.0.0.1:8200:8200"
     volumes:
       - ./config:/vault/config
       - ./data:/vault/data
