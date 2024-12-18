@@ -8,6 +8,7 @@ services:
     volumes:
       - ./config:/vault/config
       - ./data:/vault/data
+      - ./policy.hcl:/vault/policies
     environment:
       VAULT_DEV_ROOT_TOKEN_ID: root
     command: ["server"]
